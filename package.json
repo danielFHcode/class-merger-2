@@ -1,0 +1,25 @@
+{
+    "name": "class-merger",
+    "version": "2.0.0",
+    "description": "Merge classes in type script.",
+    "main": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "type": "module",
+    "scripts": {
+        "build": "rollup --config",
+        "dev": "rollup --config --watch"
+    },
+    "keywords": [
+        "ts",
+        "mixins",
+        "oop"
+    ],
+    "author": "Daniel F.H.",
+    "license": "ISC",
+    "devDependencies": {
+        "@rollup/plugin-typescript": "^11.1.5",
+        "rollup": "^4.5.2",
+        "rollup-plugin-dts": "^6.1.0",
+        "tslib": "^2.6.2"
+    }
+}

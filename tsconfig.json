@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "target": "ES5",
+        "lib": ["ESNext"]
+    },
+    "include": ["src"]
+}
